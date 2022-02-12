@@ -1,4 +1,88 @@
+html {
+}
+
 body {
   background-color: black;
   color: white;
+}
+
+.logo_menu_wrap {
+  height: 30px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  justify-content: space-between;
+}
+
+.menu_wrap {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  position: absolute;
+  right: 0;
+}
+.menu_item {
+  text-align: center;
+}
+
+.content {
+}
+
+.main {
+  margin-top: 100px;
+}
+.introduce {
+  font-size: 180px;
+  font-weight: bold;
+}
+
+@keyframes move_right {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: 70px;
+  }
+}
+
+.introduce_item {
+  width: 100%;
+}
+#TAB_text {
+  position: absolute;
+  animation-name: move_right;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  left: 70px;
+}
+
+@keyframes move_left {
+  0% {
+    right: -300px;
+  }
+  100% {
+    right: 0;
+  }
+}
+#TAB_abbreviation_text {
+  position: absolute;
+  animation-name: move_left;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  right: 0;
+}
+
+.apply_btn {
+  height: 100px;
+  width: 200px;
+  background-color: #1869e4;
+  text-align: center;
+  border-radius: 20px;
+  margin: 300px auto;
+  font-size: 30px;
 }
