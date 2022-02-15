@@ -2,8 +2,6 @@
 
 ## Contributors
 
-<a href="https://github.com/HUFS-CES-TAB/TAB_WebPage/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=HUFS-CES-TAB/TAB_WebPage" />
-</a>
++ [김민서] (https://github.com/kimwest00) + [조주희] (https://github.com/juhui88)
 
-Made with [contrib.rocks](https://contrib.rocks).
+
